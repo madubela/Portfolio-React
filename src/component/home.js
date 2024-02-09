@@ -16,8 +16,7 @@ const home = () => {
           
             }
 
- <div className='tittle'>
- <img src='langa' 
+ <div>
 
  </div>
 
