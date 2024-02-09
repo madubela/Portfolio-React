@@ -2,6 +2,8 @@
   background-color: #5B7798;
 }
 
+
+
 .logo{
   color: white;
   font-size: 300%;
@@ -11,11 +13,57 @@
 .nav-links {
   color: #ffffff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 50rem 0.5rem;
   z-index: 1;
   font-size: 1.2rem;
+  color: white;
+  margin: 0 10px;
+  padding: 15px 0;
+  text-align: right;
+  
+
+}
+
+.Langa{
+  font-style: bold;
+}
+
+img{
+  width: 30%;
+  height: 20%;
+  border-radius:5%;
+  align-items: right;
+  width: calc(25% + 2em);
+  padding-left: 49em;
+  
+}
+
+.section{
+  padding: 15%;
+  padding-right: 50;
+  text-decoration: double;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 
+.section {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
 
+.section strong {
+  color: #333;
+}
 
+.Langa {
+  font-size: 18px;
+  color: #ff0303;
+  padding-left: 20%;
+  text-align: left;
+}

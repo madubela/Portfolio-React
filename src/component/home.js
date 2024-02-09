@@ -1,10 +1,11 @@
 import React from 'react';
+import langa1 from './Images/langa1.jpeg';
 
 const home = () => {
     return (
         <div className="home" id="home">
             {
-            <ul>
+           
                 <li>
                 <a href="./home.js" className="nav-links">Home</a>
                 <a href="./about.js" className="nav-links">About</a>
@@ -12,18 +13,15 @@ const home = () => {
                 <a href="./portfolio.js" className="nav-links">My Work</a>
                 <a href="./contact.js" className="nav-links">Contact Me</a>
                 </li>
-            </ul>
+          
             }
 
-            
-     <div className='Image'></div>
-        <h1 className=" section">
-            Hi, I am <strong>Langa Madubela</strong>
-        </h1>
-        <p className="">front-end dev</p>
+ <div className='tittle'>
+ <img src='langa' 
 
+ </div>
 
-        </div>
+  </div>
 
         
 
