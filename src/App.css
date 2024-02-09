@@ -1,0 +1,21 @@
+*{
+  background-color: #5B7798;
+}
+
+.logo{
+  color: white;
+  font-size: 300%;
+  font-style: bold;
+}
+
+.nav-links {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  z-index: 1;
+  font-size: 1.2rem;
+}
+
+
+
+
