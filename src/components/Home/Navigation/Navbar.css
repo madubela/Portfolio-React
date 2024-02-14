@@ -1,8 +1,9 @@
 .Navbar{
-    position: absolute;
+    top: 0;
+    position: fixed;
     display: inline-block;
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 .Navbar ul{
@@ -19,5 +20,5 @@
 }
  .Navbar a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
  }

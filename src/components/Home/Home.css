@@ -1,0 +1,61 @@
+.logo {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    font-size: 2.5rem; 
+    color: white; 
+    font-weight: bold;
+  }
+  
+
+.profile-picture{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+
+.profile-picture img{
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+  
+}
+
+.tittle  {
+    position: absolute;
+    top: 300px;
+    color: white;
+    left: 250px;
+    font-size: 1.5rem;
+   font-style: bold;
+}
+
+.button-container {
+    position: absolute;
+    top: 510px; 
+    right: 150px; 
+    padding: 10px; 
+  }
+  
+  .download-cv-button {
+    padding: 10px 20px;
+    margin-right: 15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    font-size: 1rem;
+  }
+
+  .download-cv-button:hover, .hire-me-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px; /* Adjust width as needed */
+}
+
+.social-icons svg {
+    color: #333; /* Adjust color as needed */
+}

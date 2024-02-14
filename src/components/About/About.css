@@ -1,0 +1,31 @@
+
+.about-me {
+    background-color: #304762; 
+    margin-top: 1000px;
+    background-repeat: no-repeat;
+  }
+
+  .About-container{
+    color: azure;
+    background-color: #304762;
+    padding: 50px;
+  }
+
+  .container {
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding-right: 700px;
+    color: white;
+ 
+  }
+  
+  .container p {
+    margin-bottom: 20px; 
+  }
+
+  .about-img{
+    width: 450px;
+    padding-left: 915px;
+    border-radius: 15px;
+    margin-top: -1000px;
+  }
