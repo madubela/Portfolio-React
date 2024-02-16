@@ -1,6 +1,6 @@
 .card img {
-    width: 300px; /* Set the width of the image */
-    height: auto0; /* Maintain aspect ratio */
+    width: 300px; 
+    height: auto0; 
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }

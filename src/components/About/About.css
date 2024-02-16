@@ -3,30 +3,33 @@
     background-color: #304762; 
     margin-top: 1000px;
     background-repeat: no-repeat;
+    height: 100vh;
   }
 
   .About-container{
     color: azure;
     background-color: #304762;
     padding: 50px;
+    
   }
 
-  .container {
+  .about-me .container {
     max-width: 350px; 
     margin: 0 auto; 
     padding-right: 600px;
     color: white;
+    position: relative;
+    top: 4.5rem;
  
   }
   
   .container p {
-    margin-bottom: 20px; 
-    font-style: inherit;
+    margin-top: 20px; 
   }
 
   .about-img{
     max-width: 400px;
-    padding-left: 915px;
+    padding-left: 650px;
     border-radius: 15px;
-    margin-top: -1000px;
+    margin-top: -970px;
   }

@@ -14,32 +14,32 @@ const Portfolio = () => {
     {
       title: "Hlalanathi BnB Website",
       imageUrl: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      projectUrl: "https://example.com/project2"
+      projectUrl: "https://melodious-concha-b8a922.netlify.app/"
     },
 
 
     {
       title: "Bank App",
       imageUrl: "https://plus.unsplash.com/premium_photo-1661301075857-63868ae88c00?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      projectUrl: "https://example.com/project2"
+      projectUrl: "https://github.com/Sikhuphela/Banking-App/commit/a0e7d4a2293f00f00ba1a0f9fb61dd820fcdd806"
     },
 
     {
       title: "Financial Calculator",
       imageUrl: "https://plus.unsplash.com/premium_photo-1661418553375-5ea448f11f34?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      projectUrl: "https://example.com/project2"
+      projectUrl: "https://github.com/madubela/Financial-Calculator/tree/main"
     },
 
     {
-      title: "Metric Convetor",
+      title: "Tax calculator",
       imageUrl: "https://plus.unsplash.com/premium_photo-1663133656712-09e5fc257e1c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      projectUrl: "https://example.com/project2"
+      projectUrl: "https://github.com/Sikhuphela/Tax-Calculator"
     },
 
     {
       title: "Connect-4 Game",
       imageUrl: "https://media.istockphoto.com/id/1267070625/photo/four-an-a-row-giant-game-set.jpg?s=1024x1024&w=is&k=20&c=7eg6-0o4kyxa7nEiiHT1zyYUKVEPOBM0NuSFtyDp10k=",
-      projectUrl: "https://example.com/project2"
+      projectUrl: "https://melodious-concha-b8a922.netlify.app/booking"
     },
 
   ];

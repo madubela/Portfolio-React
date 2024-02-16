@@ -1,5 +1,5 @@
-import React from 'react'
-import './Skills.css'
+import React from 'react';
+import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faPython, faJava, faReact } from '@fortawesome/free-brands-svg-icons';
 
@@ -8,7 +8,8 @@ const Skills = () => {
     <div className="skills-container">
       <h1>Skills</h1>
       <div className="skills-border">
-      <FontAwesomeIcon icon={faHtml5} className="skill-icon" title="HTML" />
+        <div className="skill-item">
+          <FontAwesomeIcon icon={faHtml5} className="skill-icon" title="HTML" />
           <p>HTML</p>
         </div>
         <div className="skill-item">
@@ -26,9 +27,16 @@ const Skills = () => {
         <div className="skill-item">
           <FontAwesomeIcon icon={faJava} className="skill-icon" title="Java" />
           <p>Java</p>
-    </div>
-  </div>
-  )
-}
+        </div>
 
-export default Skills
+        <div className="skill-item">
+          <FontAwesomeIcon icon={faReact} className="skill-icon" title="React" />
+          <p>React</p>
+        </div>
+
+      </div>
+    </div>
+  );
+};
+
+export default Skills;
