@@ -5,14 +5,12 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/My Work/Portfolio';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
-  <div
-  
-  
-  >
+  <div>
 
     <Navbar />
     <Home />
@@ -20,8 +18,8 @@ function App() {
     <Skills />
     <Portfolio/>
     <Contact />
+    <Footer />
   
-    
   </div>
  
   );

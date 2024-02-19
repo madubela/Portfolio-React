@@ -33,3 +33,10 @@
     border-radius: 15px;
     margin-top: -970px;
   }
+
+  .line {
+    border: 15px solid #000;
+    margin-bottom: 20px; /* Adjust as needed */
+    width: 1050px; 
+  }
+  

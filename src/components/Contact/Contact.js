@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css'
-import Image from '../Images/Rectangle 21.jpg';
+import Image from "../Images/ContactPic.jpg"
 
 function Contact() {
     const [formData, setFormData] = useState({
@@ -22,7 +22,7 @@ function Contact() {
         console.log('Form submitted:', formData);
         setFormData({
           name: '',
-          email: '',
+          email: 'madubelalanga30@gmail.com',
           message: ''
         });
       };

@@ -1,25 +1,29 @@
 
+
 .contact-container {
     display: flex;
     align-items: center;
     background-color: #5B7798;
+    height: 100vh;
+    
   }
 
   .contact-container h1{
     color: #ffffff;
     padding-left: 80%;
     text-align: center;
-   font-style: normal;
   }
   
   .contact-image {
     flex: 1;
     padding: 20px;
+   
   }
   
   .contact-image img {
     width: 70%;
     height: 70%;
+    border-radius: 30px 30px 30px 30px;
   }
   
   .contact-form {

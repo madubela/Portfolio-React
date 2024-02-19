@@ -1,9 +1,8 @@
 import React from "react";
-import Card from "../card"; // Assuming Card component is located in the same directory
-import Fade from "react-reveal/Fade"; // Assuming you have installed and imported react-reveal
-
+import Card from "../card"; 
+import Fade from "react-reveal/Fade"; 
 const Portfolio = () => {
-  // Sample project data
+  
   const projects = [
     {
       title: "My Portfolio Website",
@@ -68,7 +67,7 @@ const Portfolio = () => {
   );
 };
 
-// Styles
+
 const portfolioStyles = {
   padding: "40px 0",
 };

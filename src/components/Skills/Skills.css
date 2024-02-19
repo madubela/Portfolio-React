@@ -1,8 +1,8 @@
 .skills-container {
   color: azure;
   background-color: #5B7798;
-  padding: 50px;
   text-align: center; 
+  height: 100vh;
 }
 
 .skills-border {
@@ -13,6 +13,7 @@
   display: flex;
   flex-wrap: wrap; 
   justify-content: center; 
+  margin-top: 200px;
 }
 
 .skill-item {
