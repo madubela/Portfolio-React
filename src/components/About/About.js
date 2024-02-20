@@ -6,10 +6,10 @@ import Image from '../Images/langa2.jpeg'
 const About = () => {
   return (
    
-    <section className="about-me">
+    <section id='About' className="about-me">
         <div className="container">
         <h1>Who I am</h1>
-        <hr className="line" /> {/* Add this line */}
+          <hr className="line" /> 
         <p>
         I am Madubela Langa Monelisi, and most people call me "Mane." I was born on April 30, 2000. I grew up in Mthatha, Eastern Cape. I began my schooling journey at Lutoli J.S.S. and later attended Bensile J.S.S. I eventually completed my high school education at Attwell Madala High School. After graduating, I was accepted into Walter Sisulu University, where I pursued a Diploma in Information Communication Technology with a focus on Business Analysis.
        </p>

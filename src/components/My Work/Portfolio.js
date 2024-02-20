@@ -44,7 +44,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio" style={portfolioStyles}>
+    <section id="Portfolio" style={portfolioStyles}>
       <div className="container" style={containerStyles}>
         <Fade bottom>
           <h2 style={headingStyles}>Portfolio</h2>

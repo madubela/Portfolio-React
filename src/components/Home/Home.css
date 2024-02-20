@@ -53,15 +53,22 @@
   }
 
   .download-cv-button:hover, .hire-me-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
   }
 
-  .social-icons {
+  .icons {
     display: flex;
-    justify-content: space-between;
-    width: 200px; /* Adjust width as needed */
-}
-
-.social-icons svg {
-    color: #333; /* Adjust color as needed */
-}
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  .icon {
+    font-size: 50px; 
+    margin: 0 10px; 
+  
+  }
+  
+  .icon:hover {
+    color: #020202; 
+  }
+  

@@ -1,7 +1,7 @@
 .skills-container {
-  color: azure;
   background-color: #5B7798;
   text-align: center; 
+  color: white;
   height: 100vh;
 }
 
@@ -26,6 +26,12 @@
   font-size: 100px;
   margin-bottom: 10px; 
   color: black;
+}
+
+.skills-container h1{
+  margin-top: 455px;
+  color: rgb(255, 255, 255);
+ 
 }
 
  

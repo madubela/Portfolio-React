@@ -5,7 +5,7 @@ import { faHtml5, faCss3Alt, faJs, faPython, faJava, faReact } from '@fortawesom
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id='Skills'>
       <h1>Skills</h1>
       <div className="skills-border">
         <div className="skill-item">
