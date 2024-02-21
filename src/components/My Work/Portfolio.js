@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "../card"; 
-import Fade from "react-reveal/Fade"; 
+import { Fade } from "react-reveal";
+import './Portfolio.css'
+
 const Portfolio = () => {
   
   const projects = [
@@ -40,7 +42,6 @@ const Portfolio = () => {
       imageUrl: "https://media.istockphoto.com/id/1267070625/photo/four-an-a-row-giant-game-set.jpg?s=1024x1024&w=is&k=20&c=7eg6-0o4kyxa7nEiiHT1zyYUKVEPOBM0NuSFtyDp10k=",
       projectUrl: "https://melodious-concha-b8a922.netlify.app/booking"
     },
-
   ];
 
   return (
@@ -67,7 +68,6 @@ const Portfolio = () => {
   );
 };
 
-
 const portfolioStyles = {
   padding: "40px 0",
 };
@@ -82,6 +82,7 @@ const headingStyles = {
   textAlign: "center",
   marginBottom: "40px",
   fontSize: "2rem",
+  color: "white",
 };
 
 const projectGridStyles = {

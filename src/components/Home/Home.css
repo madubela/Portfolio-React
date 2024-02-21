@@ -60,6 +60,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px; 
+    color: black;
   }
   
   .icon {
@@ -68,7 +69,29 @@
   
   }
   
-  .icon:hover {
-    color: #020202; 
-  }
-  
+
+  .icon {
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Time{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #5B7798;
+  border-radius: 30px 30px 30px 30px;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+}

@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import './Contact.css'
 import Image from "../Images/ContactPic.jpg"
 
+
 function Contact() {
     const [formData, setFormData] = useState({
         name: '',
@@ -21,15 +22,17 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_8zpchnv', 'template_tflbg2q', e.target, 'YcQSfsVXqSON3b7zD6')
+        emailjs.sendForm('service_6onol45', 'template_9cy8cf5', e.target, '_Ccjx9es_MmAv3uZ7')
             .then((result) => {
                 console.log('Email sent successfully:', result.text);
+                // Clear form fields after successful submission
                 setFormData({
                     name: '',
                     email: '',
                     message: ''
                 });
-            }, (error) => {
+            })
+            .catch((error) => {
                 console.error('Email sending failed:', error.text);
             });
     };
@@ -68,7 +71,7 @@ function Contact() {
                     <div>
                         <label htmlFor="message">Message:</label>
                         <textarea
-                            id="message"
+                            id="name"
                             name="message"
                             value={formData.message}
                             onChange={handleChange}

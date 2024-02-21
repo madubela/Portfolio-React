@@ -40,3 +40,24 @@
     width: 1050px; 
   }
   
+  /*Animation*/
+
+  .about-me {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
