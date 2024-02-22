@@ -1,73 +1,122 @@
-
-
 .contact-container {
-    display: flex;
-    align-items: center;
-    background-color: #5B7798;
-    height: 100vh;
-    
+  display: flex;
+  align-items: center;
+  background-color: #5B7798;
+  height: 100vh;
+  color: azure;
+  top: 50px;
+}
+
+.contact-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.contact-image img {
+  width: 70%;
+  height: 70%;
+  border-radius: 30px 30px 30px 30px;
+}
+
+
+
+.contact-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.contact-form form {
+  max-width: 450px; 
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 70px;
+}
+
+.contact-form button {
+  background-color: #304762;
+  color: #fff;
+  padding: 10px 20px;
+  border-color: rgb(12, 0, 68);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #98b1ce;
+}
+
+/* Media Queries */
+
+/* For tablets and larger devices */
+@media screen and (min-width: 768px) {
+  .contact-container {
+      flex-direction: row;
   }
 
-  .contact-container h1{
-    color: #ffffff;
-    padding-left: 80%;
-    text-align: center;
+  .contact-image,
+  .contact-form {
+      flex: 1;
   }
-  
+
   .contact-image {
-    flex: 1;
-    padding: 20px;
+      padding: 20px;
+  }
+
+  .contact-form {
+      padding: 20px;
+  }
+}
+
+/* For smaller devices */
+@media screen and (max-width: 767px) {
+  .contact-container {
+      flex-direction: column;
+      justify-content: center;
+      bottom: 200px;
+
+  }
+
+  .contact-image,
+  .contact-form {
+      width: 70%;
+      margin: 0px;
+      padding-left: 60px;
+  }
+
+
+  .contact-form {
+      padding: 15px;
+  }
+
+  .contact-image img {
+      width: 90%;
+      height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px 400px) {
+  .contact-image img {
+    width: 400px;
+    height: 400px;
    
   }
-  
-  .contact-image img {
-    width: 70%;
-    height: 70%;
-    border-radius: 30px 30px 30px 30px;
-  }
-  
-  .contact-form {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .contact-form form {
-    max-width: 450px; 
-  }
-  
-  .contact-form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .contact-form input
-   {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contact-form textarea{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    height: 70px;
-  }
-
-  .contact-form button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .contact-form button:hover {
-    background-color: #0056b3;
-  }
-  
+}

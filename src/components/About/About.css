@@ -1,63 +1,85 @@
 
 .about-me {
-    background-color: #304762; 
-    margin-top: 1000px;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
+  background-color: #304762; 
+  margin-top: 1000px;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
-  .About-container{
-    color: azure;
-    background-color: #304762;
-    padding: 50px;
-    
-  }
+.About-container {
 
-  .about-me .container {
-    max-width: 350px; 
-    margin: 0 auto; 
-    padding-right: 600px;
-    color: white;
-    position: relative;
-    top: 4.5rem;
- 
-  }
-  
-  .container p {
-    margin-top: 20px; 
-  }
+  background-color: #304762;
+  padding: 50px;
+}
 
-  .about-img{
-    max-width: 400px;
-    padding-left: 650px;
-    border-radius: 15px;
-    margin-top: -970px;
-  }
+.about-me .container {
+  max-width: 350px; 
+  margin: 0 auto; 
+  padding-right: 600px;
+  color:white;
+  position: relative;
+  top: 4.5rem;
+}
 
-  .line {
-    border: 15px solid #000;
-    margin-bottom: 20px; 
-    width: 1050px; 
-  }
-  
-  /*Animation*/
+.container p {
+  margin-top: 20px; 
+}
 
-  .about-me {
+.about-img {
+  max-width: 400px;
+  padding-left: 650px;
+  border-radius: 30px 30px 30px 30px ;
+  margin-top: -970px;
+}
+
+.line {
+  border: 10px solid #000;
+  margin-bottom: 20px; 
+  width: 1050px; 
+}
+
+/* Animation */
+.about-me {
   animation-name: fadeInUp;
   animation-duration: 1s;
 }
 
 @keyframes fadeInUp {
   from {
-    opacity: 0;
-    transform: translateY(20px);
+      opacity: 0;
+      transform: translateY(20px);
   }
   to {
-    opacity: 1;
-    transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
   }
 }
 
-
+/* Media Query */
+@media screen and (max-width: 1000px) {
+  .about-me {
+      margin-top: 200px; 
+  }
+  
+  .about-img {
+      padding-left: 0; 
+      margin-top: 0px; 
+      width: 250px; 
+      max-width: none; 
+      height: 150px; 
+     padding-left: 50px;
+     border-radius: 15px 15px 15px 15px;
+  }
+  
+  .About-container {
+      padding: 20px; 
+     
+  }
+  
+  .about-me .container {
+      padding-right: 20px; 
+      top: 0.5rem; 
+  }
+}
 
 

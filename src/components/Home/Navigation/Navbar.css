@@ -1,4 +1,4 @@
-.Navbar{
+.Navbar {
     top: 0;
     position: fixed;
     display: inline-block;
@@ -6,19 +6,76 @@
     background-color: rgb(255, 255, 255);
     width: 100%;
 }
-.Navbar ul{
+
+.Navbar ul {
     display: inline-block;  
     list-style-type: none;
     position: absolute;
     right: 30px;
 }
 
-.Navbar li{
+.Navbar li {
     display: inline-block; 
     padding: 15px; 
-  
 }
- .Navbar a{
+
+.Navbar a {
     text-decoration: none;
     color: rgb(255, 255, 255);
- }
+}
+
+/* Hamburger Style */
+.hamburger-menu {
+    display: none; /* Hide by default */
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    z-index: 1000;
+}
+
+.hamburger {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 5px auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.open .line:nth-child(2) {
+    opacity: 0;
+}
+
+.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+@media screen and (max-width: 767px) {
+    .Navbar ul {
+        display: none; /* Hide by default on small screens */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show only on small screens */
+    }
+
+    .Navbar ul.open {
+        display: block; /* Show when hamburger menu is clicked */
+        position: absolute;
+        top: 0px; /* Adjust as needed */
+        right: 0;
+        z-index: 1000;
+    }
+
+    .Navbar ul.open li {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+}

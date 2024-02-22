@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   padding-left: 2%;
+  margin: 50px;
 }
 
 .social-icons a {
@@ -17,6 +18,7 @@
   color: #fff;
   font-size: 20px;
   text-decoration: none;
+  animation: rotate 2s linear infinite; /* Animation added */
 }
 
 .social-icons a:last-child {
@@ -29,10 +31,16 @@
   }
 
   .social-icons a {
-    margin-right: 0;
-    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
   }
-
- 
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
