@@ -5,6 +5,7 @@
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     width: 100%;
+    z-index: 1000; /* Set a higher z-index */
 }
 
 .Navbar ul {
@@ -12,6 +13,12 @@
     list-style-type: none;
     position: absolute;
     right: 30px;
+    border: solid #4c7d9e;
+    background-color: #4c7d9e;
+    opacity: 50px;
+    border-radius: 30px 30px 30px 30px;
+    z-index: 999; /* Set a higher z-index */
+
 }
 
 .Navbar li {

@@ -16,6 +16,7 @@ const Home = () => {
 
     return () => clearInterval(timer);
   }, []);
+  
 
   return (
     <div id='Home' className="home-page">
