@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import './Contact.css'
-import Image from "../Images/ContactPic.jpg"
-
+import './Contact.css';
+import Image from "../Images/ContactPic.jpg";
+import ReCAPTCHA from 'react-google-recaptcha'; // Import ReCAPTCHA
 
 function Contact() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
-        message: ''
+        message: '',
+        recaptcha: '' // Add a state for reCAPTCHA response
     });
 
     const handleChange = (e) => {
@@ -19,17 +20,29 @@ function Contact() {
         });
     };
 
+    const handleRecaptchaChange = (value) => {
+        setFormData({
+            ...formData,
+            recaptcha: value
+        });
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_6onol45', 'template_9cy8cf5', e.target, '_Ccjx9es_MmAv3uZ7')
+        // Add the reCAPTCHA response to the form data
+        const form = e.target;
+        form.elements.recaptcha.value = formData.recaptcha;
+
+        emailjs.sendForm('service_6onol45', 'template_9cy8cf5', form, '_Ccjx9es_MmAv3uZ7')
             .then((result) => {
                 console.log('Email sent successfully:', result.text);
                 // Clear form fields after successful submission
                 setFormData({
                     name: '',
                     email: '',
-                    message: ''
+                    message: '',
+                    recaptcha: '' // Reset reCAPTCHA state
                 });
             })
             .catch((error) => {
@@ -38,7 +51,6 @@ function Contact() {
     };
 
     return (
-
         <div className="contact-container" id='Contact'>
             <div className="contact-image">
                 <h1>Contact</h1>
@@ -71,14 +83,18 @@ function Contact() {
                     <div>
                         <label htmlFor="message">Message:</label>
                         <textarea
-                            id="name"
+                            id="message"
                             name="message"
                             value={formData.message}
                             onChange={handleChange}
                             required
                         />
-
                     </div>
+                    <ReCAPTCHA
+                        sitekey="6Lci_H8pAAAAAFCvQOFOlrkNXoSU4MX4zyt8XGi0"
+                        onChange={handleRecaptchaChange}
+                    />
+                    <input type="hidden" name="recaptcha" /> {/* Hidden input for reCAPTCHA response */}
                     <button type="submit">Submit</button>
                 </form>
             </div>

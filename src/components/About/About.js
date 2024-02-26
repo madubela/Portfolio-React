@@ -19,7 +19,7 @@ const About = () => {
         <p>
         I'm currently undertaking an 18-month internship in Software Development at CapaCiTi, which provides me with valuable hands-on experience in the field.
         </p>
-        <h1>I am Madubela</h1>
+        
         <p>
         Beyond my professional pursuits, I have a passion for playing the keyboard, which I find to be a therapeutic and enjoyable pastime. I come from a supportive family of five, which includes my mother, Mamtshawe, and my three brothers. I am the youngest member of our family.
         </p>

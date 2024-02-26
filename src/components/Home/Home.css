@@ -1,8 +1,11 @@
 body {
   background-image: url(../Images/home\ bg.jpg);
-  background-size: contain;
+  background-size: cover; /* Adjusted to cover */
   background-repeat: no-repeat;
-  background-color: #304762; 
+  background-position: center center; /* Center the background image */
+  background-color: #304762;  
+  margin:  0; /* Ensure there's no default margin */
+  height:  100vh; /* Ensure the body takes the full viewport height */
 }
 
 .logo {
@@ -138,11 +141,92 @@ body {
   padding: 10px 20px;
   margin-right: 15px;
   border-radius: 15px;
-  color: rgb(255, 255, 255);
-  background-color: gray;
+  color: rgb(43, 43, 43);
+  background-color: rgb(121, 138, 211);
   font-size: 1rem;
   max-width: 10px;
 }
 
 }
 
+@media screen and (max-width:   768px) {
+  .logo {
+    font-size:   1.5rem;
+  }
+
+  .profile-picture img {
+    width:   100%;
+    height: auto;
+  }
+
+  .tittle {
+    font-size:   1.2rem;
+  }
+
+  .button-container {
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: center;
+    margin-top:   20px;
+  }
+}
+
+/* Additional responsive adjustments */
+@media screen and (max-width:   480px) {
+  .logo {
+    font-size:   1.2rem; 
+  }
+
+  .profile-picture img {
+    width:   45%; 
+    height: auto;
+    margin-top: 150px;
+    margin-left: 40px;
+  }
+
+  .tittle {
+    font-size:   1rem; 
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .button-container {
+    margin-top:   10px; 
+  }
+
+  .Time {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #2d5583;
+    border-radius: 30px 30px 30px 30px;
+    height: 25px;
+    width: 120px;
+    text-align: center;
+  }
+
+  .button-container {
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: center;
+    margin-top:   20px;
+    margin-left: 30px;
+    
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px; 
+    color: black;
+    margin-left: 50px;
+  }
+  
+  .icon {
+    font-size: 50px; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease;
+  }
+  
+
+}
