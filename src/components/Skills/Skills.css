@@ -14,7 +14,7 @@
   display: flex;
   flex-wrap: wrap; 
   justify-content: center; 
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .skill-item {
@@ -46,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+

@@ -4,6 +4,8 @@ import { Fade } from "react-reveal";
 import './Portfolio.css'
 
 const Portfolio = () => {
+
+  
   
   const projects = [
     {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import Image from "../Images/ContactPic.jpg";
+import { Fade } from "react-reveal";
 import ReCAPTCHA from 'react-google-recaptcha'; // Import ReCAPTCHA
 
 function Contact() {
@@ -53,7 +54,9 @@ function Contact() {
     return (
         <div className="contact-container" id='Contact'>
             <div className="contact-image">
-                <h1>Contact</h1>
+            <Fade bottom>
+          <h2 style={headingStyles}>Contact</h2>
+        </Fade>
                 <img src={Image} alt="Contact" />
             </div>
             <div className="contact-form">
@@ -103,3 +106,12 @@ function Contact() {
 }
 
 export default Contact;
+
+
+const headingStyles = {
+    textAlign: "center",
+    marginBottom: "260px",
+    fontSize: "3rem",
+    color: "white",
+    paddingLeft: "630px",
+  };

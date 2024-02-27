@@ -64,27 +64,8 @@
   background-color: #98b1ce;
 }
 
-/* Media Queries */
 
-/* For tablets and larger devices */
-@media screen and (min-width: 768px) {
-  .contact-container {
-      flex-direction: row;
-  }
 
-  .contact-image,
-  .contact-form {
-      flex: 1;
-  }
-
-  .contact-image {
-      padding: 20px;
-  }
-
-  .contact-form {
-      padding: 20px;
-  }
-}
 
 /* For smaller devices */
 @media screen and (max-width: 767px) {
@@ -113,10 +94,18 @@
   }
 }
 
-@media only screen and (max-width: 768px 400px) {
+@media only screen and (max-width: 768px ) {
   .contact-image img {
-    width: 400px;
-    height: 400px;
-   
+    width: 200px;
+    height: 200px;
+     margin-left: -30px;
+  }
+
+  .contact-container {
+ 
+    background-color: #5B7798;
+    height: 200vh;
+    color: azure;
+    
   }
 }

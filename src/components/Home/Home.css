@@ -1,4 +1,4 @@
-body {
+ body {
   background-image: url(../Images/home\ bg.jpg);
   background-size: cover; /* Adjusted to cover */
   background-repeat: no-repeat;
@@ -6,7 +6,7 @@ body {
   background-color: #304762;  
   margin:  0; /* Ensure there's no default margin */
   height:  100vh; /* Ensure the body takes the full viewport height */
-}
+ }
 
 .logo {
   position: fixed;

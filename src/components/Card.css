@@ -5,3 +5,19 @@
     border-top-right-radius: 8px;
   }
   
+
+  
+  .card-content a {
+    display: inline-block;
+    background-color: #007bff; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Add border radius */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .card-content a:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  

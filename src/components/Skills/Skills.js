@@ -1,12 +1,15 @@
 import React from 'react';
 import './Skills.css';
+import { Fade } from "react-reveal";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faPython, faJava, faReact } from '@fortawesome/free-brands-svg-icons';
 
 const Skills = () => {
   return (
     <div className="skills-container" id='Skills'>
-      <h1>Skills</h1>
+        <Fade bottom>
+          <h2 style={headingStyles}>Skills</h2>
+        </Fade>
       <div className="skills-border">
         <div className="skill-item">
           <FontAwesomeIcon icon={faHtml5} className="skill-icon" title="HTML" />
@@ -40,3 +43,11 @@ const Skills = () => {
 };
 
 export default Skills;
+
+const headingStyles = {
+  textAlign: "center",
+
+  fontSize: "3rem",
+  color: "white",
+  paddingTop: "60px",
+};
