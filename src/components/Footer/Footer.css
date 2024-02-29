@@ -34,6 +34,16 @@
     margin-right: 10px;
     margin-bottom: 0;
   }
+
+  .footer {
+    background-color: #304762;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+
 }
 
 @keyframes rotate {
@@ -43,4 +53,7 @@
   to {
     transform: rotate(360deg);
   }
+
+
+    
 }

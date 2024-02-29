@@ -21,6 +21,14 @@
 
 }
 
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
 .Navbar li {
     display: inline-block; 
     padding: 15px; 
@@ -44,12 +52,13 @@
 }
 
 .hamburger {
-    width: 100%;
+    width: 30px;
     height: 3px;
     background-color: black;
     margin: 5px auto;
     transition: transform 0.3s, opacity 0.3s;
 }
+
 
 .open .line:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
@@ -85,4 +94,12 @@
         padding: 15px;
         border-bottom: 1px solid #ccc;
     }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 4px 0;
+        transition: 0.4s;
+      }
 }

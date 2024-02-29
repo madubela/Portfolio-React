@@ -1,7 +1,9 @@
-
+ body{
+  background-color: #304762;
+ }
 .about-me {
   background-color: #304762; 
-  margin-top: 1000px;
+  margin-top: 0px;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -58,7 +60,7 @@
 /* Media Query */
 @media screen and (max-width: 1000px) {
   .about-me {
-      margin-top: 670px; 
+      margin-top: 0px; 
    
   
   }
@@ -69,7 +71,7 @@
       width: 250px; 
       max-width: none; 
       height: 150px; 
-     padding-left: 50px;
+     padding-left: 30px;
      border-radius: 15px 15px 15px 15px;
   }
   
@@ -86,7 +88,7 @@
   .line {
     border: 10px solid #000;
     margin-bottom: 20px; 
-    width: 320px; 
+    width: 250px; 
     margin-left: 5px;
   }
 }

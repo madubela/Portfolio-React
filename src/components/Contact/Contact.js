@@ -110,8 +110,8 @@ export default Contact;
 
 const headingStyles = {
     textAlign: "center",
-    marginBottom: "260px",
+    marginBottom: "0px",
     fontSize: "3rem",
     color: "white",
-    paddingLeft: "630px",
+    // paddingLeft: "630px",
   };

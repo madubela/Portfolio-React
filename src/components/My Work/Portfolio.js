@@ -50,7 +50,7 @@ const Portfolio = () => {
     <section id="Portfolio" style={portfolioStyles}>
       <div className="container" style={containerStyles}>
         <Fade bottom>
-          <h2 style={headingStyles}>Portfolio</h2>
+          <h2 style={headingStyles}>MyWork</h2>
         </Fade>
         <div className="project-grid" style={projectGridStyles}>
           {projects.map((project, index) => (

@@ -15,7 +15,11 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="hamburger-menu" onClick={toggleMenu}>
-        <div className={`hamburger ${isOpen ? "open" : ""}`}></div>
+      <div className="hamburger-menu" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
       </div>
       <ul className={`navbar-list ${isOpen ? "open" : ""}`}>
         <li>

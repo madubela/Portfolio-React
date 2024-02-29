@@ -1,0 +1,10 @@
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body {
+        overflow-y: auto; /* Re-enable scrollbar if necessary */
+    }
+}

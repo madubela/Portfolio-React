@@ -1,11 +1,11 @@
- body {
+ .home-page{
   background-image: url(../Images/home\ bg.jpg);
-  background-size: cover; /* Adjusted to cover */
+  background-size: cover; 
   background-repeat: no-repeat;
-  background-position: center center; /* Center the background image */
+  background-position: center center; 
   background-color: #304762;  
-  margin:  0; /* Ensure there's no default margin */
-  height:  100vh; /* Ensure the body takes the full viewport height */
+  margin:  0; 
+  height:  100vh; 
  }
 
 .logo {
@@ -64,6 +64,7 @@
   justify-content: center;
   margin-top: 20px; 
   color: black;
+
 }
 
 .icon {
@@ -220,6 +221,8 @@
     margin-top: 0px; 
     color: black;
     margin-left: 50px;
+    flex-direction: column;
+  
   }
   
   .icon {
