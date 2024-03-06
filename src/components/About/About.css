@@ -27,12 +27,29 @@
   margin-top: 20px; 
 }
 
+/*Animation*/
+
 .about-img {
   max-width: 400px;
   padding-left: 650px;
-  border-radius: 30px 30px 30px 30px ;
+  border-radius: 30px;
   margin-top: -970px;
+  animation-name: shakeImage;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes shakeImage {
+  from {
+    transform: Shake(0deg);
+  }
+  to {
+    transform:  shake(360deg);
+  }
+}
+
+
+
 
 .line {
   border: 10px solid #000;
@@ -43,7 +60,7 @@
 /* Animation */
 .about-me {
   animation-name: fadeInUp;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 
 @keyframes fadeInUp {

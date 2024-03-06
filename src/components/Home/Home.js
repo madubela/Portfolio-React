@@ -41,9 +41,9 @@ const Home = () => {
 
       <div className="profile-picture">
         <img src={profilePicture} alt="Profile" />
-        <div className="button-container">
-        <a className="download-cv-button" href="/src/components/Cv/monelisi madubela cv 30 (1).pdf" download>Download CV</a>
-       
+        <div className="button">
+        <a href="/src/components/Cv/Monelisi_Madubela_CV (4).pdf" download>
+           <button>Download CV</button></a>
         </div>
       </div>
     </div>

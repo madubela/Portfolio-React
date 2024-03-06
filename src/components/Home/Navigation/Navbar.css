@@ -51,14 +51,6 @@
     z-index: 1000;
 }
 
-.hamburger {
-    width: 30px;
-    height: 3px;
-    background-color: black;
-    margin: 5px auto;
-    transition: transform 0.3s, opacity 0.3s;
-}
-
 
 .open .line:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
